@@ -1,0 +1,286 @@
+body{
+    background-color:#9ab18b;
+    font-family: "Arial";
+    
+}
+ 
+a{
+  transition: background-color 2s;
+}
+
+a:link, a:visited {
+  color: rgb(1, 255, 192);
+  text-decoration: none;
+  cursor: pointer;
+}
+ /* Style the navbar */
+ .navbar {
+    position: sticky;
+    top: 0;
+    background-color: #043b07;
+    width: 100%;
+    display: inline-block;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left; 
+    font-size: 16px;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navdropdown{
+    float: left;
+    overflow: hidden;
+  }
+  
+  .navdropdown .dropbutton{
+    font-size: 16px;
+    border: none;
+    color: #f2f2f2;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .navbar a:hover, .navdropdown:hover .dropbutton{
+    background-color: #17641b;
+  }
+
+  .navdropdowncontent{
+    display: none;
+    position: absolute;
+    background-color: #17641b;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  
+  .navdropdowncontent a {
+    float: none;
+    color: #f2f2f2;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .navdropdowncontent a:hover{
+    background-color: #9ab18b;
+  }
+
+  .navdropdown:hover .navdropdowncontent{
+    display: block;
+  }
+
+  .navcontactpage{
+    float: right;
+    right: 0;
+    text-align: right;
+  }
+  /* Page content */
+
+
+  p{
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    clear: both;
+  }
+
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:100%
+  }
+
+  .uvComp{
+    width: 90%;
+    height: auto;
+  }
+
+  .centeredimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+
+.centeredtext{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+  .hook {
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    clear: both;
+  }
+
+  .exposuretriangleembed{
+    width: 400px;
+    height: 800px;
+    frameBorder:0;
+    align: center;
+    text-align: center;
+    margin: auto;
+  }
+
+  .youtubeembed{
+    
+    height:400px;
+    width:600px;
+    margin:auto;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+  }
+
+  .formdiv{
+    padding:20px;
+    border-radius: 5px;
+    background-color:#7e976e;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    display: flex;
+  }
+
+
+  input[type=radio]{
+    padding-right: 20px;
+    
+  } 
+
+  input[type=text], select, textarea{
+    width:100%;
+  }
+ 
+  input[type=submit] {
+    background-color: aquamarine; 
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    cursor:pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: rgb(94, 196, 162);
+  }
+
+  .col-25{
+    float: left;
+    width:40%;
+    margin-top:10px;
+   padding-bottom: 20px;
+  }
+  .col-75{
+    float: left;
+    width:60%;
+    margin-top:10px;
+  }
+  @media screen and (max-width: 600px) {
+    .col-25,.col-75{
+      width:100%;
+    }
+    .col-25{
+      padding-left: 40%;
+    }
+  }
+
+  .btn_learnmore{
+    background-color: beige;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 10px;
+    font-size: 40px;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .progressionbuttons img{
+    width:10%;
+    height: auto;
+    cursor: pointer;
+ }
+
+
+ .comparisonbuttons{
+   padding-bottom: 10px; 
+   text-align: center;
+   
+ }
+
+ .comparisonleft{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  cursor: pointer;
+ }
+
+ .comparisonright{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  cursor: pointer;
+ }
+
+  .leftarrow{
+    float: left;
+    height:50px;
+    width:50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    cursor: pointer;
+  } 
+
+  .rightarrow{
+    float: right;
+    height:50px;
+    width:50px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    cursor: pointer;
+  }
+ 
+  /* image gallery on home page */
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+    /* image gallery on home page */
+  
+.gallery{
+  margin:5px;
+  float:left;
+  width: 200px;
+}
+
+.gallery img{
+  width: 100%;
+  height: auto;
+}
+
+    

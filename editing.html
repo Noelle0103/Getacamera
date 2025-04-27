@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="Photography Information for a Beginner">
+    <meta name="Author" content="Noelle Macek">
+ <style>
+
+  #imghover{
+    transition:display 2s;
+  }
+
+  .image_off, #imghover:hover .image_on{
+   display:none;
+   
+}
+.image_on, #imghover:hover .image_off{
+   display:block;
+   
+}
+
+ </style>
+
+</head>
+
+
+<title>Photograph Editing!</title>
+<body>
+
+
+<div class="navbar">
+    <a href="./index.html">Home</a>
+    <div class="navdropdown">
+      <button class="dropbutton">Index  ↓
+      </button>
+      <div class="navdropdowncontent">
+        <a href="./camerabody.html">Camera Body</a>
+        <a href="./camerainside.html">Camera Internal</a>
+        <a href="./exposuretriangle.html">Exposure Triangle</a>
+        <a href="./lenses.html">Lenses</a>
+        <a href="./filters.html">Filters</a>
+        <a href="./editing.html">Photo Editing</a>
+        <a href="./gear.html">Camera Gear</a>
+      </div>
+      
+    </div>
+    <div class="navcontactpage">
+    <a href="./contact.html" >Contact</a>
+    </div>
+  </div> 
+
+  <div class="hook">
+    How does one edit photos?
+  </div>
+
+  <div>
+   
+      <p>Photograph editing is a nuanced subject with about as much breadth as it has depth. If taking a photograph is drawing a sketch of a painting, then editing the photo is renering that painting in acrylics. It's the step that brings the idea you had in your head when you shot, or perhaps a new idea entirely!</p> 
+      <p>When I refer to editing, I do not refer to using Photoshop to manipulate the image - though that is perfectly valid. I refer to editing as adjusting the color and light values of an image in a non-destructive manner. </p>
+      <p>It's hard to explain. Here - hover over this unedited photo and watch the edited photo reveal itself.</p>
+  </div>
+
+  <div id="imghover"><img class="image_on" height="500px" src="images/editingbefore.jpg" /><img class="image_off" height="500px" src="images/editingafter.png"/></div>
+
+  <div>
+    <p>
+      And this isn't even an example of strong editing! For more information on this process I highly reccomend watching the following YouTube video. <a href="https://youtu.be/09CAkP6LJbw">(And link if it doesn't work.)</a>
+    </p>
+  </div>
+
+  <div class="youtubeembedcontainer">
+    <figure>
+      <iframe class="youtubeembed" src="https://www.youtube.com/embed/09CAkP6LJbw"></iframe>
+    </figure>
+  </div>
+
+ 
+<div class="centeredtext" clear="both">
+    <p>Now we can talk about gear reccomendations!</p>
+</div>
+
+  <div class = progressionbuttons>
+    <a href="./filters.html">
+      <img src="images/leftarrow.jpg" class="leftarrow">
+    </a>
+
+    <a href="./gear.html">
+      <img src="images/rightarrow.jpg" class="rightarrow">
+    </a>
+  </div>
+ 
+</body>
